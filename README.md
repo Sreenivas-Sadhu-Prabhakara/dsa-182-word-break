@@ -12,6 +12,13 @@ Can a string be segmented entirely into dictionary words (each usable repeatedly
 
 **Complexity:** O(n · maxWordLen) time with O(1) substring hashing via the map, O(n) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
